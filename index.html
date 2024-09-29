@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>inputs</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Example form</h1>
+        <div class="form-container">
+            <div class="column">
+                <label class="active">Name</label>
+                <div class="input-container">
+                    <input type="text" id="name" class="input">
+                    <div id="error" style="color: red;"></div>
+                </div>
+                <label>Surname</label>
+                <div class="input-container">
+                    <input type="text" id="surname">
+                </div>
+                <label class="active">Email address</label>
+                <div class="input-container">
+                    <input type="email" id="email" class="input">
+                    <div id="error" style="color: red;"></div>
+                </div>
+                <label>Phone number</label>
+                <div class="input-container">
+                    <input type="tel" id="phone">
+                </div>
+                <label>Your Mom's name</label>
+                <div class="input-container">
+                    <input type="text" id="mom">
+                </div>
+                <label>Your Pap's name</label>
+                <div class="input-container">
+                    <input type="text" id="pap">
+                </div>
+            </div>
+            <div class="column">
+                <label class="active">Age</label>
+                <div class="input-container">
+                    <input type="age" id="age" class="input">
+                    <div id="error" style="color: red;"></div>
+                </div>
+                <label class="active">About You</label>
+                <div class="input-container">
+                    <input type="text" id="about" class="input">
+                    <div id="error" style="color: red;"></div>
+                </div>
+                <label class="active">What is JavaScript?</label>
+                <div class="input-container">
+                    <input type="text" id="javascript" class="input">
+                    <div id="error" style="color: red;"></div>
+                </div>
+                <label class="active">What is HTML?</label>
+                <div class="input-container">
+                    <input type="text" id="html" class="input">
+                    <div id="error" style="color: red;"></div>
+                </div>
+                <label class="active">What is CSS?</label>
+                <div class="input-container">
+                    <input type="text" id="css" class="input">
+                    <div id="error" style="color: red;"></div>
+                </div>
+                <label>Your favourite car</label>
+                <div class="input-container">
+                    <input type="text" id="car">
+                </div>
+            </div>
+            
+        </div>
+        <div class="button-container">
+            <button id="saveBtn">Save changes</button>
+        </div>
+    </div>
+    
+    <script src="./scripts.js"></script>
+
+</body>
+</html>
